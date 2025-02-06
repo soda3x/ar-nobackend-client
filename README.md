@@ -4,8 +4,6 @@ Create a package to distribute to players so that they can play on your Arma Ref
 
 This script will, given a valid Arma Reforger dedicated server configuration file and directory containing addons, package up all required addons and generate a launch script for your clients to use to connect directly to your server and put into a zip file for easy sharing. No fuss or hassle.
 
-
-
 ## Requirements
 
 * Your configuration file **must** contain a value for public address and port.
@@ -14,7 +12,7 @@ This script will, given a valid Arma Reforger dedicated server configuration fil
 ## Usage
 
 ```txt
-Usage: ar-nb-package.ps1 -ConfigFile <path> -AddonsDir <path> -OutputDir <path>
+Usage: arma-reforger-nbp.ps1 -ConfigFile <path> -AddonsDir <path> -OutputDir <path>
 Parameters:
   -ConfigFile  Path to the JSON configuration file.
   -AddonsDir   Path to the addons directory.

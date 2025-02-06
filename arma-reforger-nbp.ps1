@@ -7,7 +7,7 @@ param (
 
 if ($Help) {
   Write-Output "Arma Reforger No Backend Packager"
-  Write-Output "Usage: ar-nb-package.ps1 -ConfigFile <path> -AddonsDir <path> -OutputDir <path>"
+  Write-Output "Usage: arma-reforger-nbp.ps1 -ConfigFile <path> -AddonsDir <path> -OutputDir <path>"
   Write-Output "Parameters:"
   Write-Output "  -ConfigFile  Path to the JSON configuration file."
   Write-Output "  -AddonsDir   Path to the addons directory."
